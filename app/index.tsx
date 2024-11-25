@@ -1,13 +1,18 @@
-import { View, Text } from "react-native";
-import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { CharacterList } from "../components/CharacterList";
+import { useCharacterStore } from "../store/useCharacterStore";
+import { useEffect } from "react";
 
 export default function App() {
+  const fetchCharacters = useCharacterStore((state) => state.fetchCharacters);
+
+  useEffect(() => {
+    fetchCharacters();
+  }, [fetchCharacters]);
+
   return (
-    <SafeAreaView className="flex-1 items-center justify-center">
-      <View>
-        <Text className="text-3xl text-red-500">Rick & Morty Case Study App</Text>
-      </View>
+    <SafeAreaView className="flex-1 bg-gray-100">
+      <CharacterList />
     </SafeAreaView>
   );
 }
