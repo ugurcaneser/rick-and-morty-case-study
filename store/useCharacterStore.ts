@@ -1,3 +1,5 @@
+// store for managing character state
+
 import { create } from 'zustand';
 import { Character } from '../types/character';
 
@@ -11,7 +13,11 @@ interface CharacterState {
   setSearchQuery: (query: string) => void;
 }
 
+// api base url
+
 const BASE_URL = 'https://rickandmortyapi.com/api';
+
+// character store
 
 export const useCharacterStore = create<CharacterState>((set, get) => ({
   characters: [],

@@ -1,3 +1,5 @@
+// service to hold the character model in the project
+
 import { useQuery } from "@tanstack/react-query";
 import { Character, CharacterResponse } from "../types/character";
 

@@ -3,6 +3,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import "../global.css";
 
+// query client configuration used in the project
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -11,6 +13,8 @@ const queryClient = new QueryClient({
     },
   },
 });
+
+// layout for the project (wrapped in query client provider)
 
 export default function Layout() {
   return (

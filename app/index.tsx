@@ -3,6 +3,8 @@ import { CharacterList } from "../components/CharacterList";
 import { useCharacterStore } from "../store/useCharacterStore";
 import { useEffect } from "react";
 
+// main app component
+
 export default function App() {
   const fetchCharacters = useCharacterStore((state) => state.fetchCharacters);
 
