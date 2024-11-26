@@ -47,7 +47,7 @@ rick-and-morty-case-study/
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/ugurcaneser/rick-and-morty-case-study.git
 ```
 
 2. Install dependencies:
@@ -58,13 +58,6 @@ npm install
 3. Start the development server:
 ```bash
 npm start
-```
-
-4. Run on iOS or Android:
-```bash
-npm run ios
-# or
-npm run android
 ```
 
 ## 📱 Available Scripts
