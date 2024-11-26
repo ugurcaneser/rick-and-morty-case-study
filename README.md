@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# Rick and Morty Character Explorer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built with React Native and Expo that allows users to explore characters from the Rick and Morty universe. This project showcases modern mobile development practices and technologies.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- Browse Rick and Morty characters
+- View detailed character information
+- Responsive and modern UI design
+- Cross-platform compatibility (iOS & Android)
+- Smooth animations and transitions
+- Offline support
 
-   ```bash
-   npm install
-   ```
+## 🛠 Technologies
 
-2. Start the app
+- **React Native** - Mobile application framework
+- **Expo** - Development platform for React Native
+- **TypeScript** - Type-safe JavaScript
+- **TailwindCSS (NativeWind)** - Utility-first CSS framework
+- **React Query** - Data fetching and caching
+- **Zustand** - State management
+- **Expo Router** - File-based routing
+- **React Navigation** - Navigation library
 
-   ```bash
-    npx expo start
-   ```
+## 📱 Key Components
 
-In the output, you'll find options to open the app in a
+- Modern UI with Expo Blur effects
+- Bottom tab navigation
+- Character list with infinite scrolling
+- Detailed character view
+- Responsive layouts
+- Gesture handling
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🏗 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+rick-and-morty-case-study/
+├── app/                  # Application screens
+├── components/          # Reusable UI components
+├── services/           # API and external services
+├── store/              # State management
+├── types/              # TypeScript type definitions
+└── assets/             # Images and static assets
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚦 Getting Started
 
-## Learn more
+1. Clone the repository:
+```bash
+git clone [repository-url]
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+2. Install dependencies:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+3. Start the development server:
+```bash
+npm start
+```
 
-## Join the community
+4. Run on iOS or Android:
+```bash
+npm run ios
+# or
+npm run android
+```
 
-Join our community of developers creating universal apps.
+## 📱 Available Scripts
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `npm start` - Start the Expo development server
+- `npm run ios` - Run on iOS simulator
+- `npm run android` - Run on Android emulator
+- `npm run web` - Run in web browser
+- `npm test` - Run tests
+- `npm run lint` - Run linting
+
+## 🔧 Environment Setup
+
+- Node.js 18 or later
+- Expo CLI
+- iOS Simulator (for iOS development)
+- Android Studio (for Android development)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
