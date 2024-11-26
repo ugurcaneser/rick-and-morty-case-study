@@ -47,7 +47,7 @@ rick-and-morty-case-study/
 ```bash
 git clone https://github.com/ugurcaneser/rick-and-morty-case-study.git
 ```
-2. Change directory
+2. Change directory:
 
 ```bash
 cd rick-and-morty-case-study
