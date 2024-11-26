@@ -1,4 +1,4 @@
-# Rick and Morty Character Explorer
+# Rick & Morty Character Explorer
 
 A mobile application built with React Native and Expo that allows users to explore characters from the Rick and Morty universe. This project showcases modern mobile development practices and technologies.
 
@@ -17,15 +17,13 @@ A mobile application built with React Native and Expo that allows users to explo
 - **Expo** - Development platform for React Native
 - **TypeScript** - Type-safe JavaScript
 - **TailwindCSS (NativeWind)** - Utility-first CSS framework
-- **React Query** - Data fetching and caching
+- **TanStack Query v5** - Data fetching and caching
 - **Zustand** - State management
 - **Expo Router** - File-based routing
-- **React Navigation** - Navigation library
 
 ## 📱 Key Components
 
-- Modern UI with Expo Blur effects
-- Bottom tab navigation
+- Modern UI
 - Character list with infinite scrolling
 - Detailed character view
 - Responsive layouts
@@ -49,13 +47,18 @@ rick-and-morty-case-study/
 ```bash
 git clone https://github.com/ugurcaneser/rick-and-morty-case-study.git
 ```
+2. Change directory
 
-2. Install dependencies:
+```bash
+cd rick-and-morty-case-study
+```
+
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start the development server:
+1. Start the development server:
 ```bash
 npm start
 ```
@@ -75,7 +78,3 @@ npm start
 - Expo CLI
 - iOS Simulator (for iOS development)
 - Android Studio (for Android development)
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
