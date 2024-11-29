@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rick-and-morty-case-study",
-    "slug": "rick-and-morty-case-study",
+    "name": "Rick & Morty Character Explorer",
+    "slug": "rick-and-morty-character-explorer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,14 +10,14 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ugurcaneser.rickandmortycasestudy"
+      "bundleIdentifier": "com.ugurcaneser.rickandmortycharacterexplorer",
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ugurcaneser.rickandmortycasestudy"
+      "package": "com.ugurcaneser.rickandmortycharacterexplorer"
     },
     "web": {
       "bundler": "metro",
